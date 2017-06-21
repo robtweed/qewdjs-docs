@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
               
-                 <a class="navbar-brand page-scroll" href="{{ "#page-top" | prepend: site.baseurl }}"><img class="img-responsive" src="images/qewd_js_logo-206x44.png" class="img-responsive img-centered" alt=""></a>
+                 <a class="navbar-brand page-scroll" href="http://qewdjs.com"><img class="img-responsive" src="images/qewd_js_logo-206x44.png" class="img-responsive img-centered" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,7 +20,7 @@
 	                {% for entry in site.data.topnav.topnav %}
 		                {% for item in entry.items %}
 		                	{% if item.external_url %}
-								<li><a href="{{item.external_url}}" target="_blank" class="noCrossRef">{{item.title}}</a></li>
+								<li><a href="{{item.external_url}}"  class="noCrossRef">{{item.title}}</a></li>
 							{% elsif page.url contains item.url %}
 								<li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
 							{% else %}
