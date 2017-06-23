@@ -3,6 +3,8 @@ title: QEWD - Key Features
 keywords: QEWD
 sidebar: rippledocs2_sidebar
 permalink: qewd_features.html
+filename: qewd-features.md
+folder: qewd
 ---
 
 

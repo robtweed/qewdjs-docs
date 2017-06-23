@@ -3,6 +3,8 @@ title:  Explaining QEWDjs
 keywords: QEWD
 sidebar: home_sidebar
 permalink: qewd-explained.html
+folder: qewd
+filename: qewd-tech1.md
 ---
 
 
