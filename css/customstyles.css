@@ -213,11 +213,11 @@ p.post-meta {font-size: 80%; color: #777;}
     font-size: 12px;
     background-color: white;
     position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
+    top: 45px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     z-index: -1;
-    width:223px;
+    width:100%;
     border-left: 1px solid #dedede;
+    display: block !important;
     box-shadow: 2px 3px 2px #dedede;
 }
 
@@ -237,7 +237,7 @@ ul#results-container a:hover {
 #search-input {
     padding: .5em;
     margin-left:20px;
-    width:20em;
+    width: 100%;
     font-size: 0.8em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -950,6 +950,10 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     text-decoration: none;
     padding-left: 3px;
 }
+
+	nav.navbar a[href^="http://"]:after, nav.navbar a[href^="https://"]:after {
+		display: none;
+	}
 
 /* Strip the outbound icon when this class is present */
 a[href].noCrossRef::after,

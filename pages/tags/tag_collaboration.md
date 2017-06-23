@@ -5,7 +5,9 @@ search: exclude
 permalink: tag_collaboration.html
 sidebar: mydoc_sidebar
 folder: tags
+filename: tag_collaboration.md
 ---
+
 {% include taglogic.html %}
 
 {% include links.html %}
