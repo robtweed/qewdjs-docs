@@ -1341,3 +1341,7 @@ footer .links li a:hover {
 	footer .links li.github a:hover i {
 		color: #fff;
 	}
+	
+figure img, .post-content img {
+	cursor: zoom-in;
+}
