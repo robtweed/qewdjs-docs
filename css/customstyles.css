@@ -951,8 +951,11 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     padding-left: 3px;
 }
 
-	nav.navbar a[href^="http://"]:after, nav.navbar a[href^="https://"]:after {
-		display: none;
+	nav a[href^="http://"]:after, 
+	nav a[href^="https://"]:after,
+	.navbar-nav a[href^="http://"]:after, 
+	.navbar-nav a[href^="https://"]:after {
+		content: none;
 	}
 
 /* Strip the outbound icon when this class is present */
@@ -1284,3 +1287,57 @@ body {
         font-size: 1.5em;
     }
 }
+
+
+footer .links {
+	text-align: center;
+}	
+
+footer .links .nav,
+footer .links .nav li {
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+		
+footer .links li a {
+	font-size: 16px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 8px;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 50%;
+	transition: all 0.3s ease-out;
+	text-align: center;
+}
+
+/* GitHub */
+
+footer .links li.github a {
+	background-color: #800080;
+}
+
+footer .links li.github a i {
+	color: #fff;
+}
+
+/* Twitter */
+
+footer .links li.twitter a {
+	background-color: #1da1f2;
+}
+
+footer .links li.twitter a i {
+	color: #fff;
+}
+	
+
+footer .links li a:hover {
+	background-color: #f26400;
+}
+
+	footer .links li.github a:hover i {
+		color: #fff;
+	}
