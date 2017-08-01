@@ -278,7 +278,6 @@ User authentication is handled similarly to "standard" QEWD, ie, initially, on r
 That's pretty much all there is to creating QEWD JWT Applications
 
 Example
-=======
 
 I've included a worked example of a simple QEWD JWT application within the QEWD repository - look in the /examples/jwt directory, eg:
 
@@ -300,7 +299,7 @@ You'll see that the handler function logic is very similar to a standard QEWD ap
 
 
 Conclusion
-=========
+
 
 That's about it, in terms of how and why to use JWTs for your QEWD applications.  JWTs are a pretty hot topic these days, and are very much seen as the modern way forward for applications.  Once again, QEWD makes it simple for you to use them - I've done all the hard work for you!
 
