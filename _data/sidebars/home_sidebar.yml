@@ -45,6 +45,9 @@ entries:
     - title: Technical Overview of QEWD
       url: /qewd-explained.html
       output: web, pdf
+    - title: QEWD Release News/Notes
+      url: /releasenotes.html
+      output: web, pdf  
   - title: Training Materials 
     output: web, pdf
     folderitems:  
