@@ -25,6 +25,7 @@ entries:
       output: web, pdf
       type: homepage
   - title: Installation
+    url: /install_qewd.html
     output: web, pdf
     folderitems:
     - title: Installing QEWDjs
