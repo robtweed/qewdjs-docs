@@ -6,7 +6,7 @@ permalink: install_qewd.html
 folder: qewd
 filename: install_qewd.md
 ---
-## Installing QEWDjs
+### Installing QEWDjs
 
 npm install qewd
 
