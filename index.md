@@ -6,6 +6,7 @@ sidebar: home_sidebar  #rippledocs1_sidebar
 permalink: index.html
 summary: This documentation is aimed to support you in exploring and understand the QEWDjs framework.
 filename: index.md
+toc: false
 ---
 
 ## Welcome to QEWDjs Documentation 
