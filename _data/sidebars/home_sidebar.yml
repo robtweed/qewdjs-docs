@@ -17,20 +17,21 @@ entries:
       url: /tocpage
       output: pdf
       type: frontmatter
-  - title: Overview of QEWDjs
+  - title: Introducing QEWDjs
     output: web, pdf
     folderitems:
     - title: Get started
       url: /index.html
       output: web, pdf
       type: homepage
-  - title: Installation
-    url: /install_qewd.html
-    output: web, pdf
-    #folderitems:
-    #- title: Installing QEWDjs
-    #  url: /install_qewd.html
-    #  output: web, pdf    
+    - title: Installing QEWDjs
+      url: /install_qewd.html
+      output: web, pdf 
+  #- title: Installation
+  #  url: /install_qewd.html
+  #  output: web, pdf
+  #  folderitems:
+       
   - title: Exploring QEWDjs 
     output: web, pdf
     folderitems:
@@ -49,12 +50,13 @@ entries:
     - title: QEWD Release News/Notes
       url: /releasenotes.html
       output: web, pdf  
-  - title: Training Materials 
-    output: web, pdf
-    folderitems:  
     - title: Training Materials 
       url: /qewd_training.html
-      output: web, pdf      
+      output: web, pdf   
+ # - title: Training Materials 
+ #   output: web, pdf
+ #   folderitems:  
+         
   - title: FAQ & Troubleshooting
     output: web, pdf
     folderitems:
