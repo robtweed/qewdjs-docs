@@ -27,10 +27,10 @@ entries:
   - title: Installation
     url: /install_qewd.html
     output: web, pdf
-    folderitems:
-    - title: Installing QEWDjs
-      url: /install_qewd.html
-      output: web, pdf    
+    #folderitems:
+    #- title: Installing QEWDjs
+    #  url: /install_qewd.html
+    #  output: web, pdf    
   - title: Exploring QEWDjs 
     output: web, pdf
     folderitems:
