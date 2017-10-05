@@ -3,8 +3,8 @@ title: Installing QEWD.js
 keywords: QEWD
 sidebar: home_sidebar.yml
 permalink: install_qewd.html
-folder: qewd
 filename: install_qewd.md
+folder: qewd
 ---
 
 To do a basic installation of QEWD.js, load it using NPM:
