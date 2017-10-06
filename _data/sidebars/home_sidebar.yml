@@ -19,14 +19,14 @@ entries:
       type: frontmatter
   - title: Introducing QEWDjs
     output: web, pdf
-    folderitems:
-    - title: Get started
+   # folderitems:
+   # - title: Get started
       url: /index.html
       output: web, pdf
       type: homepage
-    - title: Installing QEWDjs
-      url: /install_qewd.html
-      output: web, pdf 
+  # - title: Installing QEWDjs
+  #   url: /install_qewd.html
+  #   output: web, pdf 
   #- title: Installation
   #  url: /install_qewd.html
   #  output: web, pdf
