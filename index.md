@@ -33,7 +33,3 @@ If you want to learn how to use QEWD.js to create a set of REST APIs, a good sta
 (Conduit) against which a number of front-end and back-end implementations have been created.
 
 One of the back-end implementations is the [Realworld QEWDjs backend](https://github.com/gothinkster/QEWD-realworld-example-app).  This entire back-end implementation was created in just 2 man-days: demonstrating the extreme productivity of QEWD.js
-
-
-
-..
