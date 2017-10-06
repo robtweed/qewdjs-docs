@@ -20,11 +20,12 @@ You might also find the [slides from Rob Tweed's talk at the London Node.js User
 
 ## Getting Started With QEWD.js:
 
-The simplest way to get started with QEWD.js is to use one of the 
-  [pre-built installers](https://github.com/robtweed/qewd/tree/master/installers) or the
-  [QEWD.js Docker Appliance](https://www.slideshare.net/robtweed/ewd-3-training-course-part-42-the-qewd-docker-appliance)
+If you want to use QEWD.js on a Linux system or even a Raspberry Pi, the  simplest way to get started 
+is to use one of the [pre-built installers](https://github.com/robtweed/qewd/tree/master/installers).
 
-If you prefer to install and configure QEWD.js manually, [use this guide](https://www.slideshare.net/robtweed/installing-configuring-ewdxpress).
+An even quicker and simpler approach is to use the [QEWD.js Docker Appliance](https://www.slideshare.net/robtweed/ewd-3-training-course-part-42-the-qewd-docker-appliance)
+
+If you're a Windows user, or prefer to install and configure QEWD.js manually, [use this guide](https://www.slideshare.net/robtweed/installing-configuring-ewdxpress).
 
 ## A Reference REST Implementation using QEWD.js
 
