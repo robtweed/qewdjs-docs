@@ -13,9 +13,7 @@ This Documentation aims to help you explore and understand the QEWDjs Framework
 
 ## The Background To QEWDjs:
 
-Read this article which explains the thinking behind QEWDjs and its unique architecture:
-
-[Having your NodeJS cake and eating it too](https://robtweed.wordpress.com/2017/04/18/having-your-node-js-cake-and-eating-it-too/) 
+Read the article [Having your NodeJS cake and eating it too](https://robtweed.wordpress.com/2017/04/18/having-your-node-js-cake-and-eating-it-too/), which explains the thinking behind QEWDjs and its unique architecture:
 
 You might also find the [slides from Rob Tweed's talk at the London Node.js Users Group](https://www.slideshare.net/robtweed/lnug-having-your-nodejs-cake-and-eating-it-too) useful.
 
